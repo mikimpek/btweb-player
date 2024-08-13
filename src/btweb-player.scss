@@ -1,0 +1,104 @@
+/* Opšti stilovi za .station-container */
+.station-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: rgba(34, 34, 34, 0.9); /* Tamna, poluprovidna pozadina */
+    border-radius: 10px;
+    border: 2px solid #ff00ff; /* Magenta boja ivice */
+    text-align: center;
+}
+
+/* Stil za h2 unutar .station-container */
+.station-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #ff00ff; /* Magenta boja */
+    text-transform: uppercase; /* Velika slova */
+}
+
+/* Stil za .now-playing */
+.now-playing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Bela boja teksta */
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+/* Stil za slike unutar .now-playing */
+.now-playing img {
+    border-radius: 10px;
+    border: 2px solid #ff00ff; /* Magenta boja ivice */
+    margin-bottom: 15px;
+}
+
+/* Stil za span unutar .now-playing */
+.now-playing span {
+    font-weight: bold;
+    color: #ff00ff; /* Magenta boja */
+}
+
+/* Stil za paragrafe unutar .now-playing */
+.now-playing p {
+    margin: 5px 0;
+    font-size: 1.2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    position: relative;
+}
+
+/* Marquee stilovi za scrolling tekst */
+.marquee {
+    display: inline-block;
+    padding-left: 100%; /* Početni pomak da tekst bude izvan vidljivog područja */
+    animation: marquee 15s linear infinite;
+}
+
+/* Animacija za marquee */
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Stil za song-title */
+.song-title {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff; /* Bela boja */
+}
+
+/* Stil za audio element */
+audio {
+    width: 100%;
+    background-color: #111; /* Tamna pozadina */
+    border: 2px solid #ff00ff; /* Magenta boja ivice */
+    border-radius: 10px;
+    outline: none;
+    color: #fff; /* Bela boja teksta */
+}
+
+/* Stil za kontrolnu traku audio elementa */
+audio::-webkit-media-controls-panel {
+    background-color: #111; /* Tamna pozadina */
+    border-radius: 10px;
+}
+
+/* Stil za kontrolne dugmiće i prikaz vremena u audio elementu */
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider {
+    color: #ff00ff; /* Magenta boja */
+}

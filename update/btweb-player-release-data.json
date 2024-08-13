@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "tag_name": "1.0.1",
+        "name": "Samo za test",
+        "body": "Testiranja RADI",
+        "published_at": "2024-07-19",
+        "api_count": "",
+        "beta_ver": ""
+    },
+    {
+        "id": "2",
+        "tag_name": "1.0.2",
+        "name": "Test with Folders",
+        "body": "",
+        "published_at": "2024-08-12",
+        "api_count": "",
+        "beta_ver": ""
+    }
+]
