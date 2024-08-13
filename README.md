@@ -1,6 +1,6 @@
 # btweb-player - Web Radio Player
 
-This is a Login and Register plugin for the Wordpress (https://github.com/tominik83/log-reg). 
+ 
 
 # Welcome 👋
 
