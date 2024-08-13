@@ -105,8 +105,7 @@ class Update
     private $plugin_file;
     private $github_username = 'mikimpek';
     private $github_repo = 'btweb-player';
-    // private $token = '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';
-    private $token = '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';
+    private $token = '';
     public function __construct()
     {
         $this->plugin_file = plugin_basename(__FILE__);
